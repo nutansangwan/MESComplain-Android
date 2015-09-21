@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="sky_blue" type="color">#1daeec</item>
+    <item name="white" type="color">#ffffff</item>
+</resources>
