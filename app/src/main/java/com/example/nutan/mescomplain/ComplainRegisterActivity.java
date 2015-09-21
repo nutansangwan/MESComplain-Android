@@ -11,5 +11,16 @@ public class ComplainRegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_complain_register);
+
+        new ComplainRegisterPresenter(complainRegisterView(),complainRegisterModel());
     }
+
+    private ComplainRegisterModel complainRegisterModel() {
+        return null;
+    }
+
+    private ComplainRegisterView complainRegisterView() {
+        return (ComplainRegisterView) getSupportFragmentManager().findFragmentById(R.id.complain_register_fragment);
+    }
+
 }
