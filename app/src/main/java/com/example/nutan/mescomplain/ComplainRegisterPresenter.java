@@ -5,6 +5,6 @@ package com.example.nutan.mescomplain;
  */
 public class ComplainRegisterPresenter {
     public ComplainRegisterPresenter(ComplainRegisterView view, ComplainRegisterModel model) {
-        
+
     }
 }

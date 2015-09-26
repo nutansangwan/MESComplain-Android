@@ -3,4 +3,15 @@
 
     <item name="sky_blue" type="color">#1daeec</item>
     <item name="white" type="color">#ffffff</item>
-</resources>
+    <item name="light_purple" type ="color">#cc00cc</item>
+    <item name="blue" type ="color">#0000ff</item>
+    <item name="aqua" type ="color">#00ffff</item>
+    <item name="dark_magenta" type ="color">#8b008b</item>
+    <item name="dark_orchid" type ="color">#9932cc</item>
+    <item name="light_blue" type ="color">#00ccff</item>
+    <item name="dark_blue" type ="color">#0000cc</item>
+    <item name="yellow" type ="color">#f7d358</item>
+    <item name="vivid_orange" type ="color">#df7401</item>
+    <item name="light_cyan" type ="color">#f2f2f2</item>
+    <item name="cyan" type ="color">#a4a4a4</item>
+ </resources>
