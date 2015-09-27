@@ -14,4 +14,5 @@
     <item name="vivid_orange" type ="color">#df7401</item>
     <item name="light_cyan" type ="color">#f2f2f2</item>
     <item name="cyan" type ="color">#a4a4a4</item>
+    <item name="black" type ="color">#000000</item>
  </resources>

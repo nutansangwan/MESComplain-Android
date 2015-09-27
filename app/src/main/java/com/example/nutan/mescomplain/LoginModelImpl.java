@@ -11,8 +11,8 @@ public class LoginModelImpl implements LoginModel {
 
 
     @Override
-    public Observable<MESService> authenticate(User userData) {
-        MESService service = new MESService(null);
+    public Observable<MESServices> authenticate(User userData) {
+        MESServices service = new MESServices(null);
         Log.i("check", service.toString());
         return service;
     }

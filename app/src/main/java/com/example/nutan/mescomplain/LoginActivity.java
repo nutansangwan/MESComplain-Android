@@ -6,6 +6,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+//import retrofit.RestAdapter;
+
+import retrofit.Retrofit;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -18,7 +21,12 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private LoginModel loginModel() {
-        return null;
+
+//        Retrofit retrofit = new Retrofit.Builder()
+//                .baseUrl("http://192.168.144.224:3000")
+//                .build();
+//            return RestAdapterBuilderFactory
+    return null;
     }
 
     private LoginView loginView() {
