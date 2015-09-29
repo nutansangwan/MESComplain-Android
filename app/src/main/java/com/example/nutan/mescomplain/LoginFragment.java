@@ -65,7 +65,8 @@ public class LoginFragment extends Fragment implements LoginView, View.OnClickLi
     }
 
     @Override
-    public void loginResponse(User service) {
+    public void loginResponse(final Boolean status) {
+        Log.i("status check", String.valueOf(status));
         Navigator.toComplainRegisterActivity(getActivity());
     }
 

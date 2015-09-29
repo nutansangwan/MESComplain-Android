@@ -9,11 +9,13 @@ import rx.Observable;
  */
 public class LoginModelImpl implements LoginModel {
 
-
+    private MESServices service;
+    public LoginModelImpl(MESServices service){
+        this.service=service;
+    }
     @Override
-    public Observable<MESServices> authenticate(User userData) {
-        MESServices service = new MESServices(null);
-        Log.i("check", service.toString());
-        return service;
+    public Observable<Boolean> authenticate(User userData) {
+        Log.i("authenticate","verify");
+        return service.userSignIn(userData).map(response -> response.getStatus()== 200);
     }
 }

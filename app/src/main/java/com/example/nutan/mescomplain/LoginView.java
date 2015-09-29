@@ -10,5 +10,5 @@ import rx.Observable;
 public interface LoginView {
     Observable<User> onLogin();
 
-    void loginResponse(User service);
+    void loginResponse(Boolean status);
 }

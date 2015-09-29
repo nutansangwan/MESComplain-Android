@@ -6,5 +6,5 @@ import rx.Observable;
  * Created by nutan on 9/21/15.
  */
 public interface LoginModel {
-    Observable<MESServices> authenticate(User userData);
+    Observable<Boolean> authenticate(User userData);
 }

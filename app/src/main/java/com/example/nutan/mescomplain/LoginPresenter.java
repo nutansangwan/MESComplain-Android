@@ -6,8 +6,8 @@ package com.example.nutan.mescomplain;
 public class LoginPresenter {
 
     LoginPresenter(LoginView view, LoginModel model) {
-        view.onLogin().subscribe(userData -> view.loginResponse(userData));
-//        view.onLogin().subscribe(userData -> model.authenticate(userData)
-//                .subscribe(status -> view.loginResponse(status)));
+//        view.onLogin().subscribe(userData -> view.loginResponse(userData));
+        view.onLogin().subscribe(userData -> model.authenticate(userData)
+                .subscribe(status -> view.loginResponse(status)));
     }
 }
