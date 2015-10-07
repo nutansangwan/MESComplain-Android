@@ -14,6 +14,7 @@ import rx.Observable;
 import rx.subjects.BehaviorSubject;
 
 import android.support.v4.app.Fragment;
+import android.widget.Toast;
 
 /**
  * Created by nutan on 9/21/15.
@@ -67,7 +68,11 @@ public class LoginFragment extends Fragment implements LoginView, View.OnClickLi
     @Override
     public void loginResponse(final Boolean status) {
         Log.i("status check", String.valueOf(status));
-        Navigator.toComplainRegisterActivity(getActivity());
+
+        if (status == true)
+            Navigator.toComplainRegisterActivity(getActivity());
+        else
+            Toast.makeText(getActivity(),"Get Out",Toast.LENGTH_LONG).show();
     }
 
 

@@ -6,34 +6,37 @@
     tools:context=".SplashActivity">
 
     <TextView
+        android:id="@+id/mes_complain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
         android:text="MES COMPLAIN"
         android:textColor="@color/blue"
-        android:textStyle="bold"
         android:textSize="40dp"
-        android:id="@+id/mes_complain"
-        android:layout_marginTop="74dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="bold" />
 
     <ImageView
+        android:id="@+id/army"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/army"
         android:layout_above="@+id/idea_bank"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="81dp"
-        android:id="@+id/army" />
+        android:src="@drawable/army" />
+
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/mes"
-        android:layout_alignTop="@+id/army"
+        android:layout_alignEnd="@+id/idea_bank"
         android:layout_alignRight="@+id/idea_bank"
-        android:layout_alignEnd="@+id/idea_bank" />
+        android:layout_alignTop="@+id/army"
+        android:src="@drawable/mes" />
+
     <TextView
+        android:id="@+id/idea_bank"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -41,7 +44,6 @@
         android:layout_margin="5dp"
         android:text="powered by IdeaBank"
         android:textColor="@color/black"
-        android:textSize="18dp"
-        android:id="@+id/idea_bank" />
+        android:textSize="18dp" />
 
 </RelativeLayout>

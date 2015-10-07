@@ -6,6 +6,15 @@ package com.example.nutan.mescomplain;
 public class User {
     private String userName;
     private String password;
+    private Boolean status;
+
+    public Boolean getStatus() {
+        return status;
+    }
+
+    public void setStatus(Boolean status) {
+        this.status = status;
+    }
 
     public String getUserName() {                       //alt + insert
         return userName;
